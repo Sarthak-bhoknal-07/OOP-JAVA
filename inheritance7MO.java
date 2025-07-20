@@ -1,6 +1,14 @@
 // Method Overriding - the child class implements the same method present in the parent class again
 // same method signature (name + parameters).
 
+// Method Overriding Rules
+// 1 Same name + same parameters
+// 2 Must be in child class
+// 3 Can't reduce access (public → can't be private)
+// 4 Return type must match (or subclass)
+// 5 Can't override static, final, or private methods
+// 6 Use @Override to avoid mistakes
+
 class baap {
     int acrsOfLand;
 
